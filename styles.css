@@ -1,0 +1,967 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0E0E17;
+  overflow-x: hidden;
+}
+
+/* Navbar */
+
+.big-navigation{
+  padding: 0;
+  border-radius: 0 0 15px 0;
+}
+
+.navigation {
+  background-color: #342E93;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Navbar */
+  nav{
+    width: 120%;
+  }
+  .logo {
+    max-width: 130px;
+    position: relative;
+    right: 1rem;
+    padding: 0;
+    margin: 1rem 0;
+    display: inline-block;
+  }
+
+  .company-name{
+    margin-left: 0;
+    padding: 0;
+    font-size: 1.3rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    position: relative;
+    right: 3.5rem;
+    top: 2.5rem;
+    display: inline-block;
+  }
+
+  .menu {
+    margin : 1rem 0;
+    height: 2.5rem;
+    position: relative;
+    right: 4.1rem;
+    top: 1.3rem;
+    display: inline-block;
+    border: none;
+    padding: 0;
+  }
+
+  .mobile {
+    white-space: nowrap;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 0.7rem;
+    right: 0.8rem;
+  }
+
+  .menu-titles{
+    text-align: center;
+    background-color: #342E93;
+    margin: 0 auto;
+    position:relative;
+    bottom: 1rem;
+    right: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+
+  .navigation {
+    padding: 0;
+    text-align: center;
+    position: relative;
+    bottom: 1.5rem;
+    width: 100%;
+  }
+
+
+
+
+  /* Header */
+
+  .header::before {
+    content: '';
+    display: block;
+    width: 100rem;
+    height: 4rem;
+    background-color:#0E0E17;
+    position: relative;
+    bottom: 4rem;
+    right: 10rem;
+    z-index: 0;
+  }
+
+  .header {
+    padding: 2rem 2rem 1rem;
+    max-width: 390px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 3.7rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    position: relative;
+    bottom: 5rem;
+  }
+
+  .o-circle::before {
+    content: '';
+    width: 0.8rem;
+    height: 0.8rem;
+    display: block;
+    border-radius: 50%;
+    background-color: orange;
+    position: relative;
+    left: 8rem;
+    top: 1rem;
+  }
+
+  .b-circle::before {
+    content: '';
+    width: 0.8rem;
+    height: 0.8rem;
+    display: block;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    left: 17.7rem;
+  }
+
+
+  /* Header Images */
+
+  .image-group {
+    max-width: 600px;
+    min-width: 325px;
+    overflow-x: hidden;
+    margin: 0 2rem;
+    position: relative;
+    right: 2.5rem;
+    bottom: 3rem;
+  }
+
+  .grey-london {
+    max-width: 600px;
+    min-width: 278px;
+    height: 264px;
+    position: relative;
+    right: 1.6rem;
+    opacity: 0.4;
+  }
+
+  .left-img{
+    max-width: 102px;
+    min-width: 102px;
+    height: 140px;
+    background: url(images/construction1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 0 38px 0 38px;
+    position: relative;
+    bottom: 14.6rem;
+    left: 0.95rem;
+    border: 0.2rem solid orange;
+  }
+
+  .middle-img {
+    max-width: 88px;
+    height: 100px;
+    background-color: grey;
+    opacity: 0.7;
+    border-radius: 0 44px 0 32px;
+    position: relative;
+    bottom: 18rem;
+    left: 7.6rem;
+    border: 0.2rem solid orange;
+  }
+
+  .right-img {
+    max-width: 100px;
+    height: 140px;
+    background: url(images/worker1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 0 38px 0 38px;
+    position: relative;
+    bottom: 20.8rem;
+    left: 13.3rem;
+    border: 0.2rem solid orange;
+  }
+
+  /* Last part of the header */
+  .bottom-header {
+    max-width: 400px;
+    padding: 2rem 4rem;
+    position: relative;
+    bottom: 25rem;
+    right: 2rem;
+    margin: 0 auto;
+  }
+
+  .bottom-header h3 {
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255, 0.5);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+  }
+
+  .header-button {
+    border-radius: 7px;
+    max-width: 300px;
+    min-width: 130px;
+    height: 40px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #342E93;
+    border: none;
+    margin-top: 1.3rem;
+  }
+
+
+  /* Body */
+
+  .img-holder-right {
+    max-width: 150%;
+    min-width: 140%;
+    height: 500px;
+    background: url(images/big-city.jpg);
+    background-size: cover;
+    /* transform: rotate(18deg); */
+    position: relative;
+    right: 5rem;
+    bottom: 25rem;
+    z-index: -1;
+  }
+
+
+
+  .img-holder-right::before {
+    content: '';
+    max-width: 150%;
+    min-width: 140%;
+    height: 200px;
+    display: block;
+    background-color: #0E0E17;
+    transform: rotate(18deg);
+    border-radius: 0 0 0 1800px;
+    position: relative;
+    bottom: 6rem;
+    right: 1.3rem;
+  }
+
+  .img-holder-right::after {
+    content: '';
+    max-width: 150%;
+    min-width: 140%;
+    height: 200px;
+    display: block;
+    background-color: #0E0E17;
+    transform: rotate(18deg);
+    border-radius: 0 1500px 0 0;
+    position: relative;
+    right: 14rem;
+    top: 8rem;
+  }
+
+  .content-left {
+    max-width: 35ch;
+    min-width: 30ch;
+    margin: 1rem auto;
+    position: relative;
+    bottom: 30rem;
+  }
+
+  .content-left h2 {
+    color: white;
+    margin-bottom: 2rem;
+    font-size: 2.3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+
+  .content-left h2::after {
+    content: '';
+    display: block;
+    background-color: orange;
+    max-width: 150%;
+    height: 3px;
+    position: relative;
+    right: 3rem;
+  }
+
+  .content-left p {
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-right: 2rem;
+  }
+
+  .img-holder-left {
+    max-width: 150%;
+    min-width: 140%;
+    height: 500px;
+    background: url(images/big-city.jpg);
+    background-size: cover;
+    position: relative;
+    right: 5rem;
+    bottom: 30rem;
+    z-index: -1;
+  }
+
+  .img-holder-left::before {
+    content: '';
+    max-width: 150%;
+    min-width: 140%;
+    height: 200px;
+    display: block;
+    background-color: #0E0E17;
+    transform: rotate(-18deg);
+    border-radius: 0 0 1800px 0;
+    position: relative;
+    right: 10rem;
+    bottom: 7rem;
+  }
+
+  .img-holder-left::after {
+    content: '';
+    max-width: 150%;
+    min-width: 140%;
+    height: 200px;
+    display: block;
+    background-color: #0E0E17;
+    transform: rotate(-18deg);
+    border-radius: 1800px 0 0 0;
+    position: relative;
+    left: 2rem;
+    top: 7rem;
+  }
+
+  .content-right {
+    max-width: 35ch;
+    min-width: 30ch;
+    margin: 1rem auto;
+    position: relative;
+    bottom: 35rem;
+    left: 1rem;
+  }
+
+  .content-right h2 {
+    color: white;
+    margin-bottom: 2rem;
+    font-size: 2.3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    position: relative;
+    left: 2rem;
+  }
+
+  .content-right h2::after{
+    content: '';
+    display: block;
+    background-color: orange;
+    max-width: 150%;
+    height: 3px;
+
+  }
+
+  .content-right p {
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-left: 2rem;
+  }
+
+  .footer {
+    width: 100%;
+    height: 1000px;
+    background-color: #342E93;
+    border-radius: 70px 70px 0 0;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    bottom: 30rem;
+    left: 0rem;
+  }
+
+  .footer-logo {
+    max-width: 500px;
+    width: 300px;
+    display: block;
+    margin: 2rem auto;
+    position: relative;
+    display: block;
+    left: 0.5rem;
+  }
+
+  .footer .description {
+    margin: 3rem auto;
+    color: rgb(255, 255, 255, 0.4);
+    font-family:  'Roboto', sans-serif;
+    padding: 0 3rem;
+  }
+
+  .footer h3 {
+    color: white;
+    font-family:  'Roboto', sans-serif;
+    font-weight: 500;
+    margin: 1rem auto;
+    padding: 0 3rem;
+    margin-top: 8rem;
+  }
+
+  .footer .adress {
+    color: rgb(255, 255, 255, 0.4);
+    margin: 0 auto;
+    padding: 0 3rem;
+  }
+
+  .footer .phone {
+    color: rgb(255, 255, 255, 0.4);
+    margin: 0 auto;
+    padding: 0 3rem;
+  }
+
+  .phone-group {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .footer .email {
+    color: rgb(255, 255, 255, 0.4);
+    margin: 0 auto;
+    padding: 0 3rem;
+  }
+
+  .white-footer {
+    color: white;
+    font-weight: bold;
+  }
+
+  .footer::after {
+    content: '';
+    display: block;
+    background-color: #342E93;
+    width: 100%;
+    margin: 0 auto;
+    height: 800px;
+    z-index: -1;
+    position: relative;
+    top: 0rem;
+  }
+
+  .gotopbtn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: orange;
+    bottom: 700px;
+    left: 340px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    z-index: 1;
+    font-size: 22px;
+    border-radius: 5px;
+  }
+}
+
+/* Tablets and Ipad */
+@media (min-width: 601px) {
+
+
+  /* Navbar */
+  nav{
+    width: 120%;
+  }
+  .logo {
+    max-width: 150px;
+    position: relative;
+
+    padding: 0;
+    margin: 1rem 0;
+    display: inline-block;
+  }
+
+  .company-name{
+    margin-left: 0;
+    padding: 0;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    position: relative;
+    right: 1.5rem;
+    top: 2.5rem;
+    display: inline-block;
+  }
+
+  .menu {
+    margin : 1rem 0;
+    height: 3rem;
+    width: 50px;
+    position: relative;
+    right: 2rem;
+    top: 1.3rem;
+    display: inline-block;
+    padding: 0;
+  }
+
+  .mobile {
+    white-space: nowrap;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 0.7rem;
+    right: 0.8rem;
+  }
+
+  .menu-titles{
+    text-align: center;
+    background-color: #342E93;
+    margin: 0 auto;
+    position:relative;
+    bottom: 1rem;
+    right: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+
+  .navigation {
+    padding: 0;
+    text-align: center;
+    position: relative;
+    bottom: 1.5rem;
+    width: 100%;
+  }
+
+  /* Header */
+
+  .header::before {
+    content: '';
+    display: block;
+    width: 100rem;
+    height: 4rem;
+    background-color:#0E0E17;
+    position: relative;
+    bottom: 4rem;
+    right: 18rem;
+    z-index: 0;
+  }
+
+  .header {
+    padding: 2rem 0rem 1rem;
+    max-width: 390px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 4.5rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    position: relative;
+    bottom: 5rem;
+    letter-spacing: 0.5rem;
+  }
+
+  .o-circle::before {
+    content: '';
+    width: 0.8rem;
+    height: 0.8rem;
+    display: block;
+    border-radius: 50%;
+    background-color: orange;
+    position: relative;
+    left: 11rem;
+    top: 1.4rem;
+  }
+
+  .b-circle::before {
+    content: '';
+    width: 0.9rem;
+    height: 0.9rem;
+    display: block;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    left: 25rem;
+  }
+
+  /* Header Images */
+
+  .image-group {
+    max-width: 800px;
+    min-width: 200%;
+    overflow-x: hidden;
+    margin: 0 2rem;
+    position: relative;
+    right: 13rem;
+    bottom: 5rem;
+  }
+
+  .grey-london {
+    max-width: 150rem;
+    min-width: 65rem;
+    height: 35rem;
+    position: relative;
+    right: 8rem;
+    top: 5rem;
+    opacity: 0.3;
+  }
+
+  .left-img{
+    max-width: 182px;
+    min-width: 152px;
+    height: 280px;
+    background: url(images/construction1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 0 58px 0 58px;
+    position: relative;
+    bottom: 27rem;
+    left: 8rem;
+    border: 0.4rem solid orange;
+  }
+
+  .middle-img {
+    max-width: 168px;
+    height: 180px;
+    background-color: grey;
+    opacity: 0.7;
+    border-radius: 0 64px 0 52px;
+    position: relative;
+    bottom: 31rem;
+    left: 20rem;
+    border: 0.4rem solid orange;
+  }
+
+  .right-img {
+    max-width: 180px;
+    height: 250px;
+    background: url(images/worker1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 0 58px 0 58px;
+    position: relative;
+    bottom: 35rem;
+    left: 31rem;
+    border: 0.4rem solid orange;
+  }
+
+  /* Last part of the header */
+  .bottom-header {
+    max-width: 500px;
+    padding: 2rem 4rem;
+    position: relative;
+    bottom: 49rem;
+    right: 5rem;
+    margin: 0 auto;
+  }
+
+  .bottom-header h3 {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255, 0.5);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+  }
+
+  .header-button {
+    border-radius: 7px;
+    max-width: 300px;
+    min-width: 130px;
+    height: 40px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #342E93;
+    border: none;
+    margin-top: 1.3rem;
+  }
+
+  /* Body */
+
+  .img-holder-right {
+    max-width: 150%;
+    min-width: 140%;
+    height: 850px;
+    background: url(images/big-city.jpg);
+    background-size: cover;
+    /* transform: rotate(18deg); */
+    position: relative;
+    right: 8rem;
+    bottom: 50rem;
+    z-index: -1;
+  }
+
+
+
+  .img-holder-right::before {
+    content: '';
+    max-width: 150%;
+    min-width: 140%;
+    height: 400px;
+    display: block;
+    background-color: #0E0E17;
+    transform: rotate(18deg);
+    border-radius: 0 0 0 1800px;
+    position: relative;
+    bottom: 10rem;
+    right: 2.9rem;
+  }
+
+  .img-holder-right::after {
+    content: '';
+    max-width: 150%;
+    min-width: 140%;
+    height: 400px;
+    display: block;
+    background-color: #0E0E17;
+    transform: rotate(18deg);
+    border-radius: 0 1500px 0 0;
+    position: relative;
+    right: 25rem;
+    top: 10rem;
+  }
+
+  .content-left {
+    max-width: 60ch;
+    min-width: 40ch;
+    margin: 1rem auto;
+    position: relative;
+    bottom: 62rem;
+  }
+
+  .content-left h2 {
+    color: white;
+    margin-bottom: 4rem;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+
+  .content-left h2::after {
+    content: '';
+    display: block;
+    background-color: orange;
+    max-width: 150%;
+    height: 3px;
+    position: relative;
+    right: 11.5rem;
+    top: 1rem;
+  }
+
+  .content-left p {
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 1.7rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-right: 2rem;
+  }
+
+  .img-holder-left {
+    max-width: 150%;
+    min-width: 140%;
+    height: 850px;
+    background: url(images/big-city.jpg);
+    background-size: cover;
+    /* transform: rotate(-18deg); */
+    position: relative;
+    right: 5rem;
+    bottom: 65rem;
+    z-index: -1;
+  }
+
+  .img-holder-right-1 {
+    position: relative;
+    bottom: 60rem;
+  }
+
+  .img-holder-left::before {
+    content: '';
+    max-width: 150%;
+    min-width: 140%;
+    height: 400px;
+    display: block;
+    background-color: #0E0E17;
+    transform: rotate(-18deg);
+    border-radius: 0 0 1800px 0;
+    position: relative;
+    bottom: 8rem;
+    right: 29rem;
+  }
+
+  .img-holder-left::after {
+    content: '';
+    max-width: 150%;
+    min-width: 140%;
+    height: 400px;
+    display: block;
+    background-color: #0E0E17;
+    border-radius: 1800px 0 0 0;
+    transform: rotate(-18deg);
+    position: relative;
+    right: 3rem;
+    top: 10rem;
+  }
+
+  .content-right {
+    max-width: 60ch;
+    min-width: 40ch;
+    margin: 1rem auto;
+    position: relative;
+    bottom: 70rem;
+    left: 6rem;
+  }
+
+  .content-right h2 {
+    color: white;
+    margin-bottom: 4rem;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    position: relative;
+    left: 2rem;
+  }
+
+  .content-right h2::after{
+    content: '';
+    display: block;
+    background-color: orange;
+    min-width: 280%;
+    height: 3px;
+    position: relative;
+    top: 1rem;
+
+  }
+
+  .content-right p {
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 1.7rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-left: 2rem;
+  }
+
+  .footer {
+    width: 100%;
+    height: 1000px;
+    background-color: #342E93;
+    border-radius: 70px 70px 0 0;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    bottom: 58rem;
+  }
+
+  .footer-logo {
+    max-width: 500px;
+    width: 300px;
+    display: block;
+    margin: 2rem auto;
+    position: relative;
+    display: block;
+    left: 0.5rem;
+  }
+
+  .footer .description {
+    margin: 3rem auto;
+    color: rgb(255, 255, 255, 0.4);
+    font-family:  'Roboto', sans-serif;
+    padding: 0 3rem;
+    font-size: 1.5rem;
+  }
+
+  .footer h3 {
+    color: white;
+    font-family:  'Roboto', sans-serif;
+    font-weight: 500;
+    margin: 1rem auto;
+    padding: 0 3rem;
+    margin-top: 8rem;
+    font-size: 2rem;
+  }
+
+  .footer .adress {
+    color: rgb(255, 255, 255, 0.4);
+    margin: 0 auto;
+    padding: 0 3rem;
+    font-size: 1.5rem;
+  }
+
+  .footer .phone {
+    color: rgb(255, 255, 255, 0.4);
+    margin: 0 auto;
+    padding: 0 3rem;
+    font-size: 1.5rem;
+  }
+
+  .phone-group {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .footer .email {
+    color: rgb(255, 255, 255, 0.4);
+    margin: 0 auto;
+    padding: 0 3rem;
+    font-size: 1.5rem;
+  }
+
+  .white-footer {
+    color: white;
+    font-weight: bold;
+  }
+
+  .footer::after {
+    content: '';
+    display: block;
+    background-color: #342E93;
+    width: 100%;
+    margin: 0 auto;
+    height: 1000px;
+    z-index: -1;
+    position: relative;
+    bottom: 1rem;
+  }
+
+  .gotopbtn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: orange;
+    bottom: 800px;
+    left: 45rem;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    z-index: 1;
+    font-size: 22px;
+    border-radius: 5px;
+  }
+
+}
