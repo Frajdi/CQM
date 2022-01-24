@@ -470,7 +470,7 @@ body {
     height: 800px;
     z-index: -1;
     position: relative;
-    top: 0rem;
+    bottom: 2rem;
   }
 
   .gotopbtn {
