@@ -174,7 +174,7 @@ body {
     max-width: 102px;
     min-width: 102px;
     height: 140px;
-    background: url(images/construction1.jpg);
+    background: url(Images/construction1.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 0 38px 0 38px;
@@ -199,7 +199,7 @@ body {
   .right-img {
     max-width: 100px;
     height: 140px;
-    background: url(images/worker1.jpg);
+    background: url(Images/worker1.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 0 38px 0 38px;
@@ -246,7 +246,7 @@ body {
     max-width: 150%;
     min-width: 140%;
     height: 500px;
-    background: url(images/big-city.jpg);
+    background: url(Images/big-city.jpg);
     background-size: cover;
     /* transform: rotate(18deg); */
     position: relative;
@@ -323,7 +323,7 @@ body {
     max-width: 150%;
     min-width: 140%;
     height: 500px;
-    background: url(images/big-city.jpg);
+    background: url(Images/big-city.jpg);
     background-size: cover;
     position: relative;
     right: 5rem;
@@ -638,7 +638,7 @@ body {
     max-width: 182px;
     min-width: 152px;
     height: 280px;
-    background: url(images/construction1.jpg);
+    background: url(Images/construction1.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 0 58px 0 58px;
@@ -663,7 +663,7 @@ body {
   .right-img {
     max-width: 180px;
     height: 250px;
-    background: url(images/worker1.jpg);
+    background: url(Images/worker1.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 0 58px 0 58px;
@@ -709,7 +709,7 @@ body {
     max-width: 150%;
     min-width: 140%;
     height: 850px;
-    background: url(images/big-city.jpg);
+    background: url(Images/big-city.jpg);
     background-size: cover;
     /* transform: rotate(18deg); */
     position: relative;
@@ -787,7 +787,7 @@ body {
     max-width: 150%;
     min-width: 140%;
     height: 850px;
-    background: url(images/big-city.jpg);
+    background: url(Images/big-city.jpg);
     background-size: cover;
     /* transform: rotate(-18deg); */
     position: relative;
