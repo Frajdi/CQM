@@ -501,6 +501,19 @@ body {
 /* Tablets and Ipad */
 @media (min-width: 601px) {
 
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  html, body {
+    overflow-x: hidden;
+  }
+  body {
+    width:100%;
+    overflow-x:hidden;
+    overflow-y:hidden;
+
+  }
 
   /* Navbar */
   nav{
