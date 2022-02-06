@@ -490,13 +490,19 @@ body {
     height: 50px;
     background: orange;
     bottom: 300px;
-    left: 340px;
+    left: 330px;
     color: white;
     text-align: center;
     line-height: 50px;
     z-index: 1;
     font-size: 22px;
-    border-radius: 5px;
+    border-radius: 50%;
+    opacity: 0.8;
+  }
+
+  .arrow {
+    opacity: 1;
+    color: #0E0E17;
   }
 }
 
